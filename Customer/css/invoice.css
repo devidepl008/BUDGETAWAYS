@@ -1,0 +1,128 @@
+﻿/* CSS Document */
+.invoice-icon,.icons-data{display:inline-block;}
+.invoice-icon {
+  font-size: 20px;
+  padding: 0 25px;
+  vertical-align: middle;
+}
+.address.invoice-icon{  margin-bottom: 25px;}
+.print-invoice{
+  border: 1px solid #ccc;background:#fff;
+  margin: 0 auto;
+  padding: 0px 0;
+  width: 960px;
+}
+.print-invoice .invoice-body {
+  padding: 20px 15px;
+}
+.inv-header {
+  background: #fff;
+  color: #fff;
+  padding: 10px 0 5px;
+  box-shadow: 0 2px 4px -3px #000;
+  -moz-box-shadow: 0 2px 4px -3px #000;
+  -webkit-box-shadow: 0 2px 4px -3px #000;
+}
+.inv-header .span6 {
+  font-size: 30px;color:#000;
+  line-height: 49px;
+  text-align: center;
+}
+.contact-bar{border-bottom: 1px dashed #666;}
+.address-bank-det {
+  margin-top: 10px;
+}
+.invoice-body h5 {
+  color: #000;
+  font-size: 25px;
+  font-weight: normal;margin:6px 0;
+}
+.invoice-body h5 span{color:#000;}
+.invoice-amount {
+  background: none repeat scroll 0 0 #efefef;
+  padding: 10px 10px 10px 15px;font-size:12px;
+  box-shadow:0 2px 4px -3px #000;
+}
+.items-tbl th, .items-tbl td {
+  padding: 5px;
+  text-align: center;
+}
+.items-tbl th {
+  background: none repeat scroll 0 0 #38a3eb;
+  color: #fff;
+}
+.items-tbl .desc {
+  text-align:justify;
+  font-size:13px;
+}
+.items-tbl .pkg-name {border-bottom: 1px solid #bbb;
+color: #000;
+font-size: 15px;
+line-height: 25px;
+padding-bottom: 3px;
+text-align: left;
+}
+.items-tbl .pkg-name span{float:right;font-size:12px;}
+
+.items-tbl .item-no,.items-tbl .empty-td {
+  vertical-align: top;
+   background: none repeat scroll 0 0 #fff;
+  padding: 0;
+}
+table.items-tbl{border-collapse: separate;
+    border-spacing: 5px;}
+.items-tbl td, .items-tbl .item-no div {
+  background: none repeat scroll 0 0 #EFEFEF;
+  padding:5px;
+}
+.items-tbl td{font-size:20px;}
+.items-tbl .total-lbl {
+  padding-right: 10px;
+  text-align: right;
+}
+.items-tbl .final-total {
+  background: none repeat scroll 0 0 #38a3eb;
+  color: #fff;
+  font-size: 22px;
+  padding: 10px;
+}
+
+.items-tbl .final-total span {
+  color: #fff;
+}
+
+p.notes{text-align:justify; font-size:12px;}
+
+.bank-detail{color:#000;
+	padding-left:47px; letter-spacing: 2px;
+}
+.invoicettl{
+	padding-bottom: 10px;
+text-align: center;
+text-transform: uppercase;
+}
+.our-details{
+font-size: 14px;
+line-height: 20px;
+text-align: right;padding:6px 24px 0 0;
+}
+.our-details span{display:block;
+}
+
+.in-logo img{float: left;width: 50%; padding:0 0 0 12px;}
+
+.partial-paid{
+	background: none repeat scroll 0 0 #ff9a45;
+color: #fff;
+padding: 2px 4px;
+}
+
+.in-footer-bg{
+	background:#EFEFEF; border-top:1px solid #aaa;
+}
+
+
+
+
+
+
